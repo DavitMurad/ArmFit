@@ -7,20 +7,20 @@
       "latitude": 40.220713745405554,
       "longitude": 44.49461894211808
     },
-    "logoName": "reebok_logo",
+    "logoName": "Reebok",
     "images": [
-      "reebok_gym_1",
-      "reebok_gym_2",
-      "reebok_gym_3"
+      "ReebokImg",
+      "ReebokImg",
+      "ReebokImg"
     ],
     "facilities": [
       "Olympic Pool",
-      "Wellness Checkup",
-      "Technogym App",
-      "Milon Circuit Training",
-      "Squash",
+      "Wellness Services",
+      "Training Technology",
+      "Circuit Training",
+      "Squash Courts",
       "SPA",
-      "Group Trainings"
+      "Group Classes"
     ],
     "rating": 4.8,
     "sampleReview": "A high-end club with a great pool and excellent, modern equipment. The club offers a variety of specialized training options and is known for its professional atmosphere."
@@ -33,17 +33,15 @@
       "latitude": 40.1989754,
       "longitude": 44.5018784
     },
-    "logoName": "neo_gym_logo",
+    "logoName": "Neo",
     "images": [
-      "neo_gym_1",
-      "neo_gym_2"
+      "NeoImg",
+      "NeoImg"
     ],
     "facilities": [
-      "State-of-the-art facilities",
-      "Cutting-edge training accessories",
-      "Essential exercise equipment",
-      "Experienced fitness trainers",
-      "Car parking",
+      "Modern Equipment",
+      "Personal Training",
+      "Parking",
       "Free Wifi"
     ],
     "rating": 5.0,
@@ -57,20 +55,18 @@
       "latitude": 40.1769376,
       "longitude": 44.5224431
     },
-    "logoName": "multi_wellness_logo",
+    "logoName": "Multi",
     "images": [
-      "multi_wellness_1",
-      "multi_wellness_2"
+      "MultiImg",
+      "MultiImg"
     ],
     "facilities": [
-      "Indoor pool",
-      "Outdoor pool",
+      "Pools",
       "Sauna",
-      "Group trainings",
-      "Kids club",
-      "Restaurant-bar",
-      "SPA",
-      "Beauty center"
+      "Group Classes",
+      "Kids' Club",
+      "Restaurant",
+      "SPA"
     ],
     "rating": 4.7,
     "sampleReview": "An ultra-modern facility with a wide range of services beyond just a gym, including pools, a spa, and a beauty center, making it a comprehensive wellness destination."
@@ -83,20 +79,18 @@
       "latitude": 40.183307,
       "longitude": 44.4879418
     },
-    "logoName": "orange_fitness_logo",
+    "logoName": "Orange",
     "images": [
-      "orange_fitness_1",
-      "orange_fitness_2"
+      "OrangeImg",
+      "OrangeImg"
     ],
     "facilities": [
-      "Indoor pool",
-      "Outdoor pool",
+      "Pools",
       "Sauna",
-      "Steam bath",
+      "SPA",
       "Jacuzzi",
-      "SPA-center",
-      "Children's club",
-      "Dance classes"
+      "Kids' Club",
+      "Dance Classes"
     ],
     "rating": 5.0,
     "sampleReview": "A premium club known for its spacious and clean facilities. Members highly praise the swimming pools, sauna, and the variety of group fitness and dance classes offered."
@@ -109,16 +103,16 @@
       "latitude": 40.2057135,
       "longitude": 44.559389
     },
-    "logoName": "aquatek_logo",
+    "logoName": "Aquatek",
     "images": [
-      "aquatek_1",
-      "aquatek_2"
+      "AquatekImg",
+      "AquatekImg"
     ],
     "facilities": [
-      "Water park",
-      "Fitness center",
-      "SPA-center",
-      "3 swimming pools",
+      "Water Park",
+      "Fitness Center",
+      "SPA",
+      "Pools",
       "Sauna",
       "Free Wifi"
     ],
@@ -133,17 +127,14 @@
       "latitude": 40.1897437,
       "longitude": 44.5220079
     },
-    "logoName": "tutunjian_logo",
+    "logoName": "Tutunjian",
     "images": [
-      "tutunjian_1",
-      "tutunjian_2"
+      "TutunjianImg",
+      "TutunjianImg"
     ],
     "facilities": [
-      "Strength trainings",
-      "Fitness",
-      "Personal Trainings",
-      "Certified trainers",
-      "Affordable services"
+      "Strength Training",
+      "Personal Training"
     ],
     "rating": 5.0,
     "sampleReview": "A highly-praised gym known for its professional and polite staff. Members appreciate the new equipment and the effective personalized training programs."
@@ -156,13 +147,13 @@
       "latitude": 40.1812896,
       "longitude": 44.505821
     },
-    "logoName": "orion_logo",
+    "logoName": "Orion",
     "images": [
-      "orion_1",
-      "orion_2"
+      "OrionImg",
+      "OrionImg"
     ],
     "facilities": [
-      "Sports club"
+      "Sports Club"
     ],
     "rating": 4.5,
     "sampleReview": "A reputable sports club with a good location in the city center. Known for its quality facilities and diverse offerings."
@@ -175,19 +166,18 @@
       "latitude": 40.20810735673941,
       "longitude": 44.570994131132714
     },
-    "logoName": "hills_logo",
+    "logoName": "Hills",
     "images": [
-      "hills_1",
-      "hills_2"
+      "HillsImg",
+      "HillsImg"
     ],
     "facilities": [
-      "Indoor swimming pool",
-      "Outdoor swimming pool",
+      "Pools",
       "Sauna",
-      "Spa",
+      "SPA",
       "Gym",
       "Restaurant",
-      "Kids' club"
+      "Kids' Club"
     ],
     "rating": 4.9,
     "sampleReview": "A new and modern sports complex located on a hill, offering stunning views of the city. The facilities are excellent, especially the large pools and spa area."
@@ -200,19 +190,19 @@
       "latitude": 40.2055116,
       "longitude": 44.5082218
     },
-    "logoName": "golds_gym_logo",
+    "logoName": "Gold",
     "images": [
-      "golds_gym_1",
-      "golds_gym_2"
+      "GoldsGymImg",
+      "GoldsGymImg"
     ],
     "facilities": [
-      "Indoor Swimming Pool",
+      "Pools",
       "Sauna",
-      "Cardio equipment",
+      "Cardio Equipment",
       "Pilates",
       "Yoga",
-      "Group training",
-      "Personal training"
+      "Group Classes",
+      "Personal Training"
     ],
     "rating": 5.0,
     "sampleReview": "A high-standard sports complex with a strong international brand. The gym is clean, well-equipped, and members particularly praise the swimming pool."
@@ -225,15 +215,15 @@
       "latitude": 40.1759156,
       "longitude": 44.5170394
     },
-    "logoName": "gofit_logo",
+    "logoName": "GoFit",
     "images": [
-      "gofit_gym_1",
-      "gofit_gym_2"
+      "GofitImg",
+      "GofitImg"
     ],
     "facilities": [
-      "Sports center",
-      "Fitness club",
-      "Personal training"
+      "Sports Club",
+      "Fitness Center",
+      "Personal Training"
     ],
     "rating": 5.0,
     "sampleReview": "A highly-rated sports center known for its clean environment and dedicated trainers. It's a popular choice for those looking for a focused workout."

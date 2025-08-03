@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ArmFitApp: App {
+    @StateObject var mapVM = MapViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GymsMap()
+                .environmentObject(mapVM)
         }
     }
 }
