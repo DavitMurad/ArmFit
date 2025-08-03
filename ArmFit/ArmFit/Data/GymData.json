@@ -1,0 +1,241 @@
+[
+  {
+    "id": "e445df9e-990a-4286-8f3e-8120e3c04c05",
+    "name": "Reebok Sports Club",
+    "address": "5 Pirumyanner street, 0009, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.220713745405554,
+      "longitude": 44.49461894211808
+    },
+    "logoName": "reebok_logo",
+    "images": [
+      "reebok_gym_1",
+      "reebok_gym_2",
+      "reebok_gym_3"
+    ],
+    "facilities": [
+      "Olympic Pool",
+      "Wellness Checkup",
+      "Technogym App",
+      "Milon Circuit Training",
+      "Squash",
+      "SPA",
+      "Group Trainings"
+    ],
+    "rating": 4.8,
+    "sampleReview": "A high-end club with a great pool and excellent, modern equipment. The club offers a variety of specialized training options and is known for its professional atmosphere."
+  },
+  {
+    "id": "27c62c9c-b17d-4180-87a4-1a3b1a851167",
+    "name": "Neo Gym",
+    "address": "12/4 Vagharsh Vagharshyan St., 0012, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.1989754,
+      "longitude": 44.5018784
+    },
+    "logoName": "neo_gym_logo",
+    "images": [
+      "neo_gym_1",
+      "neo_gym_2"
+    ],
+    "facilities": [
+      "State-of-the-art facilities",
+      "Cutting-edge training accessories",
+      "Essential exercise equipment",
+      "Experienced fitness trainers",
+      "Car parking",
+      "Free Wifi"
+    ],
+    "rating": 5.0,
+    "sampleReview": "A modern and well-equipped gym with a professional staff and a great atmosphere for serious workouts. The facilities are top-notch."
+  },
+  {
+    "id": "90066f10-14e3-4672-8824-345371c6d36e",
+    "name": "Multi Wellness Center",
+    "address": "11 Alek Manukyan St., 0070, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.1769376,
+      "longitude": 44.5224431
+    },
+    "logoName": "multi_wellness_logo",
+    "images": [
+      "multi_wellness_1",
+      "multi_wellness_2"
+    ],
+    "facilities": [
+      "Indoor pool",
+      "Outdoor pool",
+      "Sauna",
+      "Group trainings",
+      "Kids club",
+      "Restaurant-bar",
+      "SPA",
+      "Beauty center"
+    ],
+    "rating": 4.7,
+    "sampleReview": "An ultra-modern facility with a wide range of services beyond just a gym, including pools, a spa, and a beauty center, making it a comprehensive wellness destination."
+  },
+  {
+    "id": "54030a5f-0d92-4f71-a066-51296f8c7e6e",
+    "name": "Orange Fitness",
+    "address": "7/1 Tsitsernakaberdi Highway, 0082, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.183307,
+      "longitude": 44.4879418
+    },
+    "logoName": "orange_fitness_logo",
+    "images": [
+      "orange_fitness_1",
+      "orange_fitness_2"
+    ],
+    "facilities": [
+      "Indoor pool",
+      "Outdoor pool",
+      "Sauna",
+      "Steam bath",
+      "Jacuzzi",
+      "SPA-center",
+      "Children's club",
+      "Dance classes"
+    ],
+    "rating": 5.0,
+    "sampleReview": "A premium club known for its spacious and clean facilities. Members highly praise the swimming pools, sauna, and the variety of group fitness and dance classes offered."
+  },
+  {
+    "id": "c1f7a8b4-023b-4861-a08b-1e5f731a5472",
+    "name": "Aquatek",
+    "address": "40/2 Myasnikyan Ave, 0025, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.2057135,
+      "longitude": 44.559389
+    },
+    "logoName": "aquatek_logo",
+    "images": [
+      "aquatek_1",
+      "aquatek_2"
+    ],
+    "facilities": [
+      "Water park",
+      "Fitness center",
+      "SPA-center",
+      "3 swimming pools",
+      "Sauna",
+      "Free Wifi"
+    ],
+    "rating": 4.3,
+    "sampleReview": "A popular resort and spa with a well-equipped fitness center. Guests love the included access to the water park and spa, making it a great option for families."
+  },
+  {
+    "id": "d0f1c3d9-6e31-4a5c-a5d2-0f5a4e1d1e4f",
+    "name": "Tutunjian Fitness",
+    "address": "105/1 Teryan St., 0001, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.1897437,
+      "longitude": 44.5220079
+    },
+    "logoName": "tutunjian_logo",
+    "images": [
+      "tutunjian_1",
+      "tutunjian_2"
+    ],
+    "facilities": [
+      "Strength trainings",
+      "Fitness",
+      "Personal Trainings",
+      "Certified trainers",
+      "Affordable services"
+    ],
+    "rating": 5.0,
+    "sampleReview": "A highly-praised gym known for its professional and polite staff. Members appreciate the new equipment and the effective personalized training programs."
+  },
+  {
+    "id": "e0b8a4f1-3d21-4d92-9a3b-2f1a3e5c7d8e",
+    "name": "Orion",
+    "address": "52/4 Mashtots Ave, 0002, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.1812896,
+      "longitude": 44.505821
+    },
+    "logoName": "orion_logo",
+    "images": [
+      "orion_1",
+      "orion_2"
+    ],
+    "facilities": [
+      "Sports club"
+    ],
+    "rating": 4.5,
+    "sampleReview": "A reputable sports club with a good location in the city center. Known for its quality facilities and diverse offerings."
+  },
+  {
+    "id": "8447814b-2d7c-4a30-8d8a-66175c5e5334",
+    "name": "Hills Sports Complex",
+    "address": "27/1 Moldovakan St., Nor Nork 2nd Block, 0096, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.20810735673941,
+      "longitude": 44.570994131132714
+    },
+    "logoName": "hills_logo",
+    "images": [
+      "hills_1",
+      "hills_2"
+    ],
+    "facilities": [
+      "Indoor swimming pool",
+      "Outdoor swimming pool",
+      "Sauna",
+      "Spa",
+      "Gym",
+      "Restaurant",
+      "Kids' club"
+    ],
+    "rating": 4.9,
+    "sampleReview": "A new and modern sports complex located on a hill, offering stunning views of the city. The facilities are excellent, especially the large pools and spa area."
+  },
+  {
+    "id": "2d334544-2453-48e0-811c-2f3b9a52864c",
+    "name": "Gold's Gym",
+    "address": "40/1 Komitas Ave, 0051, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.2055116,
+      "longitude": 44.5082218
+    },
+    "logoName": "golds_gym_logo",
+    "images": [
+      "golds_gym_1",
+      "golds_gym_2"
+    ],
+    "facilities": [
+      "Indoor Swimming Pool",
+      "Sauna",
+      "Cardio equipment",
+      "Pilates",
+      "Yoga",
+      "Group training",
+      "Personal training"
+    ],
+    "rating": 5.0,
+    "sampleReview": "A high-standard sports complex with a strong international brand. The gym is clean, well-equipped, and members particularly praise the swimming pool."
+  },
+  {
+    "id": "e445df9e-990a-4286-8f3e-8120e3c04c05",
+    "name": "GoFit",
+    "address": "1/3 Pavstos Buzand Street, 0010, Yerevan, Armenia",
+    "coordinate": {
+      "latitude": 40.1759156,
+      "longitude": 44.5170394
+    },
+    "logoName": "gofit_logo",
+    "images": [
+      "gofit_gym_1",
+      "gofit_gym_2"
+    ],
+    "facilities": [
+      "Sports center",
+      "Fitness club",
+      "Personal training"
+    ],
+    "rating": 5.0,
+    "sampleReview": "A highly-rated sports center known for its clean environment and dedicated trainers. It's a popular choice for those looking for a focused workout."
+  }
+]
