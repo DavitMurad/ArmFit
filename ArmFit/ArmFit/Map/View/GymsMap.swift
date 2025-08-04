@@ -9,15 +9,23 @@ import SwiftUI
 import MapKit
 
 struct GymsMap: View {
-    @EnvironmentObject private var mapVM: MapViewModel
-   
+    @EnvironmentObject var mapVM: MapViewModel
+    
     var body: some View {
         ZStack {
             Map(position: $mapVM.mapRegion)
+            VStack {
+                header.padding()
+                  
+                }
+            .frame(maxHeight: .infinity, alignment: .top)
+             
+            }
         }
     }
+
+
+#Preview {
+    GymsMap().environmentObject(MapViewModel())
 }
 
-//#Preview {
-//    GymsMap().environmentObject(MapViewModel())
-//}

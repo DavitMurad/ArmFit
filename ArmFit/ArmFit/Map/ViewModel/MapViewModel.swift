@@ -5,7 +5,7 @@
 //  Created by Davit Muradyan on 03.08.25.
 //
 
-import Foundation
+import SwiftUI
 import Combine
 import MapKit
 import _MapKit_SwiftUI
@@ -17,16 +17,16 @@ class MapViewModel: ObservableObject {
     @Published var gymLocation: Gym?
     @Published var mapRegion = MapCameraPosition.region(MKCoordinateRegion())
     
-    let mapSpan = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    let mapSpan = MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03)
     private var cancellables = Set<AnyCancellable>()
     
-
+    @Published var isExtendingView = false
+    
     init() {
         loadGyms()
-        
     }
     
-    func loadGyms() {
+    private func loadGyms() {
         NetworkService.shared.fethchData()
             .sink { [weak self] completion in
                 switch completion {
@@ -42,14 +42,30 @@ class MapViewModel: ObservableObject {
             }
             .store(in: &cancellables)
     }
-    
+        
     private func setUpFirstGymLoc() {
         if let last = gyms.last {
             gymLocation = last
-            updateMapRegion(gymLocation: last)
+            withAnimation(.spring) {
+                updateMapRegion(gymLocation: last)
+            }
         }
     }
     private func updateMapRegion(gymLocation: Gym) {
         mapRegion = MapCameraPosition.region(MKCoordinateRegion(center: CLLocationCoordinate2DMake(gymLocation.coordinate.latitude, gymLocation.coordinate.longitude), span: mapSpan))
+    }
+    
+    func toggleGymList() {
+        withAnimation(.easeInOut) {
+            isExtendingView.toggle()
+        }
+    }
+    
+    func showNextGymLocation(gymLocation: Gym) {
+        withAnimation(.easeInOut) {
+            self.gymLocation = gymLocation
+            updateMapRegion(gymLocation: gymLocation)
+            isExtendingView = false
+        }
     }
 }

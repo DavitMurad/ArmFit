@@ -11,9 +11,6 @@ import CoreLocation
 enum GymFacilities: String, CaseIterable, Codable {
     case olympicPool = "Olympic Pool"
     case pools = "Pools"
-    case wellnessServices = "Wellness Services"
-    case trainingTechnology = "Training Technology"
-    case circuitTraining = "Circuit Training"
     case squashCourts = "Squash Courts"
     case spa = "SPA"
     case groupClasses = "Group Classes"
@@ -36,7 +33,7 @@ enum GymFacilities: String, CaseIterable, Codable {
     case gym = "Gym"
 }
 
-struct Gym: Identifiable, Codable {
+struct Gym: Codable, Identifiable {
     
     var id: String
     let name: String
@@ -44,7 +41,7 @@ struct Gym: Identifiable, Codable {
     let coordinate: Coordinate
     let logoName: String
     let images: [String]
-    let facilities: [GymFacilities]
+    let facilities: [GymFacility]
     let rating: Double
     let sampleReview: String
 }
@@ -53,3 +50,9 @@ struct Coordinate: Codable, Hashable {
     let latitude: Double
     let longitude: Double
 }
+
+struct GymFacility: Codable, Hashable  {
+    let name: GymFacilities
+    let icon: String
+}
+

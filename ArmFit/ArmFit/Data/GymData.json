@@ -14,13 +14,22 @@
       "ReebokImg"
     ],
     "facilities": [
-      "Olympic Pool",
-      "Wellness Services",
-      "Training Technology",
-      "Circuit Training",
-      "Squash Courts",
-      "SPA",
-      "Group Classes"
+      {
+        "name": "Olympic Pool",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Squash Courts",
+        "icon": "squash-racquet.png"
+      },
+      {
+        "name": "SPA",
+        "icon": "spa.png"
+      },
+      {
+        "name": "Group Classes",
+        "icon": "group.png"
+      }
     ],
     "rating": 4.8,
     "sampleReview": "A high-end club with a great pool and excellent, modern equipment. The club offers a variety of specialized training options and is known for its professional atmosphere."
@@ -39,10 +48,22 @@
       "NeoImg"
     ],
     "facilities": [
-      "Modern Equipment",
-      "Personal Training",
-      "Parking",
-      "Free Wifi"
+      {
+        "name": "Modern Equipment",
+        "icon": "gym-equipment.png"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer.png"
+      },
+      {
+        "name": "Parking",
+        "icon": "parking.png"
+      },
+      {
+        "name": "Free Wifi",
+        "icon": "wifi.png"
+      }
     ],
     "rating": 5.0,
     "sampleReview": "A modern and well-equipped gym with a professional staff and a great atmosphere for serious workouts. The facilities are top-notch."
@@ -61,12 +82,30 @@
       "MultiImg"
     ],
     "facilities": [
-      "Pools",
-      "Sauna",
-      "Group Classes",
-      "Kids' Club",
-      "Restaurant",
-      "SPA"
+      {
+        "name": "Pools",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Sauna",
+        "icon": "sauna.png"
+      },
+      {
+        "name": "Group Classes",
+        "icon": "group.png"
+      },
+      {
+        "name": "Kids' Club",
+        "icon": "group.png"
+      },
+      {
+        "name": "Restaurant",
+        "icon": "restaurant.png"
+      },
+      {
+        "name": "SPA",
+        "icon": "spa.png"
+      }
     ],
     "rating": 4.7,
     "sampleReview": "An ultra-modern facility with a wide range of services beyond just a gym, including pools, a spa, and a beauty center, making it a comprehensive wellness destination."
@@ -85,12 +124,30 @@
       "OrangeImg"
     ],
     "facilities": [
-      "Pools",
-      "Sauna",
-      "SPA",
-      "Jacuzzi",
-      "Kids' Club",
-      "Dance Classes"
+      {
+        "name": "Pools",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Sauna",
+        "icon": "sauna.png"
+      },
+      {
+        "name": "SPA",
+        "icon": "spa.png"
+      },
+      {
+        "name": "Jacuzzi",
+        "icon": "jacuzzi.png"
+      },
+      {
+        "name": "Kids' Club",
+        "icon": "group.png"
+      },
+      {
+        "name": "Dance Classes",
+        "icon": "dance.png"
+      }
     ],
     "rating": 5.0,
     "sampleReview": "A premium club known for its spacious and clean facilities. Members highly praise the swimming pools, sauna, and the variety of group fitness and dance classes offered."
@@ -109,12 +166,30 @@
       "AquatekImg"
     ],
     "facilities": [
-      "Water Park",
-      "Fitness Center",
-      "SPA",
-      "Pools",
-      "Sauna",
-      "Free Wifi"
+      {
+        "name": "Water Park",
+        "icon": "water-park.png"
+      },
+      {
+        "name": "Fitness Center",
+        "icon": "fitness.png"
+      },
+      {
+        "name": "SPA",
+        "icon": "spa.png"
+      },
+      {
+        "name": "Pools",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Sauna",
+        "icon": "sauna.png"
+      },
+      {
+        "name": "Free Wifi",
+        "icon": "wifi.png"
+      }
     ],
     "rating": 4.3,
     "sampleReview": "A popular resort and spa with a well-equipped fitness center. Guests love the included access to the water park and spa, making it a great option for families."
@@ -133,8 +208,14 @@
       "TutunjianImg"
     ],
     "facilities": [
-      "Strength Training",
-      "Personal Training"
+      {
+        "name": "Strength Training",
+        "icon": "strength.png"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer.png"
+      }
     ],
     "rating": 5.0,
     "sampleReview": "A highly-praised gym known for its professional and polite staff. Members appreciate the new equipment and the effective personalized training programs."
@@ -153,7 +234,10 @@
       "OrionImg"
     ],
     "facilities": [
-      "Sports Club"
+      {
+        "name": "Sports Club",
+        "icon": "sport-club.png"
+      }
     ],
     "rating": 4.5,
     "sampleReview": "A reputable sports club with a good location in the city center. Known for its quality facilities and diverse offerings."
@@ -172,12 +256,30 @@
       "HillsImg"
     ],
     "facilities": [
-      "Pools",
-      "Sauna",
-      "SPA",
-      "Gym",
-      "Restaurant",
-      "Kids' Club"
+      {
+        "name": "Pools",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Sauna",
+        "icon": "sauna.png"
+      },
+      {
+        "name": "SPA",
+        "icon": "spa.png"
+      },
+      {
+        "name": "Gym",
+        "icon": "gym-equipment.png"
+      },
+      {
+        "name": "Restaurant",
+        "icon": "restaurant.png"
+      },
+      {
+        "name": "Kids' Club",
+        "icon": "group.png"
+      }
     ],
     "rating": 4.9,
     "sampleReview": "A new and modern sports complex located on a hill, offering stunning views of the city. The facilities are excellent, especially the large pools and spa area."
@@ -196,19 +298,40 @@
       "GoldsGymImg"
     ],
     "facilities": [
-      "Pools",
-      "Sauna",
-      "Cardio Equipment",
-      "Pilates",
-      "Yoga",
-      "Group Classes",
-      "Personal Training"
+      {
+        "name": "Pools",
+        "icon": "pool.png"
+      },
+      {
+        "name": "Sauna",
+        "icon": "sauna.png"
+      },
+      {
+        "name": "Cardio Equipment",
+        "icon": "treadmill.png"
+      },
+      {
+        "name": "Pilates",
+        "icon": "pilates.png"
+      },
+      {
+        "name": "Yoga",
+        "icon": "wellness.png"
+      },
+      {
+        "name": "Group Classes",
+        "icon": "group.png"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer.png"
+      }
     ],
     "rating": 5.0,
     "sampleReview": "A high-standard sports complex with a strong international brand. The gym is clean, well-equipped, and members particularly praise the swimming pool."
   },
   {
-    "id": "e445df9e-990a-4286-8f3e-8120e3c04c05",
+    "id": "f556e0af-aa1b-5397-9f4e-9231f4d05d06",
     "name": "GoFit",
     "address": "1/3 Pavstos Buzand Street, 0010, Yerevan, Armenia",
     "coordinate": {
@@ -221,9 +344,18 @@
       "GofitImg"
     ],
     "facilities": [
-      "Sports Club",
-      "Fitness Center",
-      "Personal Training"
+      {
+        "name": "Sports Club",
+        "icon": "sport-club.png"
+      },
+      {
+        "name": "Fitness Center",
+        "icon": "fitness.png"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer.png"
+      }
     ],
     "rating": 5.0,
     "sampleReview": "A highly-rated sports center known for its clean environment and dedicated trainers. It's a popular choice for those looking for a focused workout."
