@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 extension GymsMap {
     var header: some View {
@@ -38,5 +39,24 @@ extension GymsMap {
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .shadow(color: .black.opacity(0.3), radius: 20, y: 15)
         
+    }
+    
+    var mapLayer: some View {
+        Map(position: $mapVM.mapRegion) {
+            ForEach(mapVM.gyms) { gym in
+                Annotation(gym.name, coordinate: CLLocationCoordinate2D(latitude: gym.coordinate.latitude, longitude: gym.coordinate.longitude)) {
+                    
+                    Image("GymLocation")
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 75, height: 75)
+                        .scaleEffect(gym == mapVM.gymLocation ? 1.0 : 0.7)
+                        .shadow(radius: 10)
+                        .onTapGesture {
+                            mapVM.showNextGymLocation(gymLocation: gym)
+                        }
+                }
+            }
+        }
     }
 }

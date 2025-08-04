@@ -6,17 +6,17 @@
 //
 
 import SwiftUI
-import MapKit
+
 
 struct GymsMap: View {
     @EnvironmentObject var mapVM: MapViewModel
     
     var body: some View {
         ZStack {
-            Map(position: $mapVM.mapRegion)
+            mapLayer
+            
             VStack {
                 header.padding()
-                
                     .frame(maxHeight: .infinity, alignment: .top)
                 
                 Spacer()
@@ -31,12 +31,13 @@ struct GymsMap: View {
                                                         removal: .move(edge: .leading)))
                                 .environmentObject(mapVM)
                         }
-                       
+                        
                     }
                 }
             }
         }
     }
+    
 }
 
 
