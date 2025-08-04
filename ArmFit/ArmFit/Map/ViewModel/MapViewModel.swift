@@ -68,4 +68,17 @@ class MapViewModel: ObservableObject {
             isExtendingView = false
         }
     }
+    
+    func nextButtonPressed() {
+        guard let currentIndex = gyms.firstIndex(where: {$0 == gymLocation}) else { return }
+        let nextIndex = currentIndex + 1
+        
+        guard gyms.indices.contains(nextIndex) else {
+            guard let firstGymLocation = gyms.first else { return }
+            showNextGymLocation(gymLocation: firstGymLocation)
+            return
+        }
+        let nextGymLocation = gyms[nextIndex]
+        showNextGymLocation(gymLocation: nextGymLocation)
+    }
 }

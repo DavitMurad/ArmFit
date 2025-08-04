@@ -33,7 +33,7 @@ enum GymFacilities: String, CaseIterable, Codable {
     case gym = "Gym"
 }
 
-struct Gym: Codable, Identifiable {
+struct Gym: Codable, Identifiable, Equatable {
     
     var id: String
     let name: String
@@ -46,12 +46,12 @@ struct Gym: Codable, Identifiable {
     let sampleReview: String
 }
 
-struct Coordinate: Codable, Hashable {
+struct Coordinate: Codable, Hashable, Equatable {
     let latitude: Double
     let longitude: Double
 }
 
-struct GymFacility: Codable, Hashable  {
+struct GymFacility: Codable, Hashable, Equatable  {
     let name: GymFacilities
     let icon: String
 }

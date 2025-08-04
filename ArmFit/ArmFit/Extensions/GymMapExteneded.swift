@@ -31,6 +31,7 @@ extension GymsMap {
                 GymListView()
                     .environmentObject(mapVM)
             }
+            
         }
         
         .background(.thickMaterial)

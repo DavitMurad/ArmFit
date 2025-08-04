@@ -16,13 +16,28 @@ struct GymsMap: View {
             Map(position: $mapVM.mapRegion)
             VStack {
                 header.padding()
-                  
+                
+                    .frame(maxHeight: .infinity, alignment: .top)
+                
+                Spacer()
+                
+                ZStack {
+                    ForEach(mapVM.gyms) { gym in
+                        if mapVM.gymLocation == gym {
+                            GymPreview(gym: gym)
+                                .shadow(color: .black.opacity(0.3), radius: 20)
+                                .padding()
+                                .transition(.asymmetric(insertion: .move(edge: .trailing),
+                                                        removal: .move(edge: .leading)))
+                                .environmentObject(mapVM)
+                        }
+                       
+                    }
                 }
-            .frame(maxHeight: .infinity, alignment: .top)
-             
             }
         }
     }
+}
 
 
 #Preview {
