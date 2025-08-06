@@ -10,7 +10,6 @@ import SwiftUI
 
 struct GymsMap: View {
     @EnvironmentObject var mapVM: MapViewModel
-    
     var body: some View {
         ZStack {
             mapLayer
@@ -21,18 +20,9 @@ struct GymsMap: View {
                 
                 Spacer()
                 
-                ZStack {
-                    ForEach(mapVM.gyms) { gym in
-                        if mapVM.gymLocation == gym {
-                            GymPreview(gym: gym)
-                                .shadow(color: .black.opacity(0.3), radius: 20)
-                                .padding()
-                                .transition(.asymmetric(insertion: .move(edge: .trailing),
-                                                        removal: .move(edge: .leading)))
-                                .environmentObject(mapVM)
-                        }
-                        
-                    }
+                gymPreviewSection
+                .sheet(item: $mapVM.sheetGymLocation, onDismiss: nil) { gym in
+                    GymDetailView(gym: gym)
                 }
             }
         }
@@ -41,7 +31,7 @@ struct GymsMap: View {
 }
 
 
-#Preview {
-    GymsMap().environmentObject(MapViewModel())
-}
+//#Preview {
+//    GymsMap().environmentObject(MapViewModel())
+//}
 

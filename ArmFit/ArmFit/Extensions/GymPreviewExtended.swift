@@ -36,7 +36,7 @@ extension GymPreview {
     
     var learngMoreButton: some View {
             Button {
-                
+                mapVM.sheetGymLocation = gym
             } label: {
                 Text("Learn more")
                     .font(.headline)

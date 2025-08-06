@@ -22,6 +22,7 @@ class MapViewModel: ObservableObject {
     
     @Published var isExtendingView = false
     
+    @Published var sheetGymLocation: Gym? = nil
     init() {
         loadGyms()
     }
@@ -80,5 +81,9 @@ class MapViewModel: ObservableObject {
         }
         let nextGymLocation = gyms[nextIndex]
         showNextGymLocation(gymLocation: nextGymLocation)
+    }
+    
+    func learnMorePressed() {
+        
     }
 }

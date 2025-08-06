@@ -34,7 +34,6 @@ enum GymFacilities: String, CaseIterable, Codable {
 }
 
 struct Gym: Codable, Identifiable, Equatable {
-    
     var id: String
     let name: String
     let address: String
@@ -44,6 +43,7 @@ struct Gym: Codable, Identifiable, Equatable {
     let facilities: [GymFacility]
     let rating: Double
     let sampleReview: String
+    let contacts: GymContacts
 }
 
 struct Coordinate: Codable, Hashable, Equatable {
@@ -56,3 +56,8 @@ struct GymFacility: Codable, Hashable, Equatable  {
     let icon: String
 }
 
+struct GymContacts: Codable, Hashable, Equatable {
+    let instagram: String
+    let facebook: String
+    let phone: String
+}

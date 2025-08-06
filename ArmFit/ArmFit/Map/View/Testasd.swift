@@ -9,6 +9,7 @@ import SwiftUI
 
 struct Testasd: View {
     var body: some View {
+        
         VStack(spacing: 25) {
             Capsule()
                 .fill(.white)
@@ -22,19 +23,21 @@ struct Testasd: View {
                 .fill(.white)
                 .frame(width: 200, height: 50)
                 .overlay {
-                    HStack {
-                        Image("gym-equipment")
+                    HStack(spacing: 0) {
+                        Image("personal-trainer")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 30, height: 30)
                             .padding()
                         Text("Equipment")
+                            .minimumScaleFactor(0.7)
+                            .multilineTextAlignment(.leading)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     
                     
                 }
-                .shadow(radius: 10)
+                .shadow(color: Color.black.opacity(0.3), radius: 5)
         }
       
         
