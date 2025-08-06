@@ -10,8 +10,8 @@
     "logoName": "Reebok",
     "images": [
       "ReebokImg",
-      "ReebokImg",
-      "ReebokImg"
+      "ReebokImg1",
+      "ReebokImg2"
     ],
     "facilities": [
       {
@@ -29,6 +29,14 @@
       {
         "name": "Group Classes",
         "icon": "group"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 4.8,
@@ -50,7 +58,7 @@
     "logoName": "Neo",
     "images": [
       "NeoImg",
-      "NeoImg"
+      "NeoImg1",
     ],
     "facilities": [
       {
@@ -68,6 +76,10 @@
       {
         "name": "Free Wifi",
         "icon": "wifi"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 5.0,
@@ -89,7 +101,7 @@
     "logoName": "Multi",
     "images": [
       "MultiImg",
-      "MultiImg"
+      "MultiImg1"
     ],
     "facilities": [
       {
@@ -106,7 +118,7 @@
       },
       {
         "name": "Kids' Club",
-        "icon": "group"
+        "icon": "playground"
       },
       {
         "name": "Restaurant",
@@ -115,6 +127,10 @@
       {
         "name": "SPA",
         "icon": "spa"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 4.7,
@@ -136,7 +152,7 @@
     "logoName": "Orange",
     "images": [
       "OrangeImg",
-      "OrangeImg"
+      "OrangeImg1"
     ],
     "facilities": [
       {
@@ -162,6 +178,10 @@
       {
         "name": "Dance Classes",
         "icon": "dance"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 5.0,
@@ -183,7 +203,7 @@
     "logoName": "Aquatek",
     "images": [
       "AquatekImg",
-      "AquatekImg"
+      "AquatekImg1"
     ],
     "facilities": [
       {
@@ -209,6 +229,10 @@
       {
         "name": "Free Wifi",
         "icon": "wifi"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 4.3,
@@ -230,7 +254,7 @@
     "logoName": "Tutunjian",
     "images": [
       "TutunjianImg",
-      "TutunjianImg"
+      "Tut1"
     ],
     "facilities": [
       {
@@ -240,6 +264,10 @@
       {
         "name": "Personal Training",
         "icon": "personal-trainer"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 5.0,
@@ -261,12 +289,24 @@
     "logoName": "Orion",
     "images": [
       "OrionImg",
-      "OrionImg"
+      "OrionImg1"
     ],
     "facilities": [
       {
         "name": "Sports Club",
         "icon": "sport-club"
+      },
+      {
+        "name": "Strength Training",
+        "icon": "strength"
+      },
+      {
+        "name": "Personal Training",
+        "icon": "personal-trainer"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 4.5,
@@ -288,7 +328,7 @@
     "logoName": "Hills",
     "images": [
       "HillsImg",
-      "HillsImg"
+      "HillsImg1"
     ],
     "facilities": [
       {
@@ -305,7 +345,7 @@
       },
       {
         "name": "Gym",
-        "icon": "gym-equipment"
+        "icon": "muscle"
       },
       {
         "name": "Restaurant",
@@ -313,7 +353,7 @@
       },
       {
         "name": "Kids' Club",
-        "icon": "group"
+        "icon": "playground"
       }
     ],
     "rating": 4.9,
@@ -335,7 +375,7 @@
     "logoName": "Gold",
     "images": [
       "GoldsGymImg",
-      "GoldsGymImg"
+      "GoldsGymImg1"
     ],
     "facilities": [
       {
@@ -365,6 +405,10 @@
       {
         "name": "Personal Training",
         "icon": "personal-trainer"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 5.0,
@@ -386,7 +430,7 @@
     "logoName": "GoFit",
     "images": [
       "GofitImg",
-      "GofitImg"
+      "GofitImg1"
     ],
     "facilities": [
       {
@@ -400,6 +444,10 @@
       {
         "name": "Personal Training",
         "icon": "personal-trainer"
+      },
+      {
+        "name": "Gym",
+        "icon": "muscle"
       }
     ],
     "rating": 5.0,

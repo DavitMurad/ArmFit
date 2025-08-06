@@ -10,14 +10,15 @@ import SwiftUI
 
 struct GymsMap: View {
     @EnvironmentObject var mapVM: MapViewModel
+    let maxWidthForIpad: CGFloat = 700
     var body: some View {
         ZStack {
             mapLayer
             
             VStack {
                 header.padding()
-                    .frame(maxHeight: .infinity, alignment: .top)
-                
+                    .frame(maxWidth: maxWidthForIpad, maxHeight: .infinity, alignment: .top)
+
                 Spacer()
                 
                 gymPreviewSection
