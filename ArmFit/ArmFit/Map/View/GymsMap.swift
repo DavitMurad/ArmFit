@@ -31,8 +31,3 @@ struct GymsMap: View {
     
 }
 
-
-//#Preview {
-//    GymsMap().environmentObject(MapViewModel())
-//}
-

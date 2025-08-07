@@ -58,29 +58,3 @@ struct GymDetailView: View {
     }
 }
 
-
-
-//
-//#Preview {
-//    GymDetailView(gym: Gym(
-//        id: "e445df9e-990a-4286-8f3e-8120e3c04c05",
-//        name: "Reebok Sports Club",
-//        address: "5 Pirumyanner street, 0009, Yerevan, Armenia",
-//        coordinate: Coordinate(latitude: 40.220713745405554, longitude: 44.49461894211808),
-//        logoName: "Reebok",
-//        images: ["ReebokImg", "NeoImg", "OrangeImg"],
-//        facilities: [
-//            GymFacility(name: GymFacilities(rawValue: "Olympic Pool") ?? .olympicPool, icon: "pool.png"),
-//            GymFacility(name: GymFacilities(rawValue: "Squash Courts") ?? .squashCourts, icon: "squash-racquet.png"),
-//            GymFacility(name: GymFacilities(rawValue: "SPA") ?? .spa, icon: "spa.png"),
-//            GymFacility(name: GymFacilities(rawValue: "Group Classes") ?? .groupClasses, icon: "group.png")
-//        ],
-//        rating: 4.8,
-//        sampleReview: "A high-end club with a great pool and excellent, modern equipment. The club offers a variety of specialized training options and is known for its professional atmosphere.",
-//        contacts: GymContacts(
-//            instagram: "https://www.instagram.com/reeboksportsclubarmenia/",
-//            facebook: "https://www.facebook.com/reeboksportsclub",
-//            phone: "+374 10 363636"
-//        )
-//    ))
-//}

@@ -34,13 +34,3 @@ struct GymPreview: View {
         .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
-
-
-
-//#Preview {
-//    ZStack {
-//        Color.green.ignoresSafeArea()
-//        GymPreview(gym: Gym(id: "e445df9e-990a-4286-8f3e-8120e3c04c05", name: "Reebok Sports Club", address: "5 Pirumyanner street, 0009, Yerevan, Armenia", coordinate: Coordinate(latitude: 40.220713745405554, longitude: 44.49461894211808), logoName: "Reebok", images: ["ReebokImg", "ReebokImg", "ReebokImg"], facilities: [GymFacility(name: GymFacilities(rawValue: "Olympic Pool") ?? .cardioEquipment, icon: "pool.png"), GymFacility(name: GymFacilities(rawValue: "Squash Courts") ?? .freeWifi, icon: "squash-racquet.png"), GymFacility(name: GymFacilities(rawValue: "SPA") ?? .danceClasses, icon: "spa.png"), GymFacility(name: GymFacilities(rawValue: "Group Classes") ?? .danceClasses, icon: "group.png")], rating: 4.8, sampleReview: "A high-end club with a great pool and excellent, modern equipment. The club offers a variety of specialized training options and is known for its professional atmosphere."))
-//    }
-//  
-//}
