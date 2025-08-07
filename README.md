@@ -1,8 +1,9 @@
 # ArmFit
 
 # About 🤌
+https://github.com/user-attachments/assets/1ff2ee59-aadb-4fc4-b67b-9ee05d8ad286
 
-In this project, we explore one of the key components in Apple’s ecosystem: MapKit.
+In this project, I explore one of the key components in Apple’s ecosystem: **MapKit**.
 
 ArmFit is a map-based app that showcases some of the best-known fitness centers in Yerevan, Armenia, my hometown.
 
@@ -31,7 +32,7 @@ What started as a playful idea to just mess around with MapKit quickly turned in
 
 🎯 Modular file structure – Models, Views, ViewModels, Services, and Data all living in harmony
 
-💪 Real gym data – real names, real addresses, real facilities — ready to scale if needed
+💪 Real gym data – real names, real addresses, real facilities, contacts, ready to scale if needed
 
 🌗 Supports both Light and Dark Mode – because aesthetics matter
 
@@ -42,6 +43,8 @@ What started as a playful idea to just mess around with MapKit quickly turned in
 📦 Manual data & media handling – no ready-made API here unfortunetly, had to manage all the gym info, images, and coordinates myself
 
 🗺️ MapKit learning curve – a lot of tutorials online are outdated, so I had to rely on official docs and experiment my way through newer APIs
+
+🙌 Community-driven learning – big thanks to Nick Sarno and his SwiftfulThinking tutorials — a huge help in getting started and staying motivated
 
 # Reflection
 
